@@ -135,7 +135,7 @@ Followings are some of features of Flask Framework;
 
 wget https://raw.githubusercontent.com/ser-2007/aws_devops_projects/main/AWS/Portfolio/flask-01-02-hello-world-app-Jinja-Template/flask-01-hello-world-app/hello-world-app.py
 
-wget https://raw.githubusercontent.com/hamidgokce/COURSE-PROJECTS--AWS-DEVOPS/main/AWS/Portfolio/flask-01-02-hello-world-app-Jinja-Template/flask-02-Jinja_Template/jinja.py
+wget https://raw.githubusercontent.com/ser-2007/aws_devops_projects/main/AWS/Portfolio/flask-01-02-hello-world-app-Jinja-Template/flask-02-Jinja_Template/jinja.py
 
 - Run the web application
 
