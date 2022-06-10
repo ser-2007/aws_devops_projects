@@ -14,7 +14,7 @@ def head():
 # and assign to the route of ('/')
 @app.route('/serkan')
 def header():
-    names = ['Ahmet', 'Berk', 'Fatih', 'Hayko', 'Asim', 'Gokce']
+    names = ['Ahmet', 'Hanna', 'Rana', 'Sena', 'Asim', 'Gokce']
     return render_template('body.html', object = names)
 # run this app in debug mode on your local.
 if __name__ == '__main__':
