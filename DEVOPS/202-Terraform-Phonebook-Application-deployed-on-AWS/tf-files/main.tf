@@ -94,7 +94,7 @@ resource "aws_db_instance" "db-server" {
   engine = "mysql"
   engine_version = "8.0.28"
   username = "admin"
-  password = "Serkan_1"
+  password = "Serkan_1" #Dont forget you must use the same password which your wrote in app py
   monitoring_interval = 0
   multi_az = false
   port = 3306
