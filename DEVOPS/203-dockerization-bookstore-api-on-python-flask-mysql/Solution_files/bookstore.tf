@@ -73,7 +73,7 @@ resource "aws_instance" "tf-docker-ec2" {
           curl -s --create-dirs -o "/home/ec2-user/bookstore-api/Dockerfile" -L "$FOLDER"Dockerfile
           curl -s --create-dirs -o "/home/ec2-user/bookstore-api/docker-compose.yml" -L "$FOLDER"docker-compose.yml
           cd /home/ec2-user/bookstore-api
-          docker build -t hamidgokce/bookstoreapi:latest .
+          docker build -t ser2007/bookstoreapi:latest .
           docker-compose up -d
           EOF
   # depends_on = [github_repository.myrepo, github_repository_file.app-files]
