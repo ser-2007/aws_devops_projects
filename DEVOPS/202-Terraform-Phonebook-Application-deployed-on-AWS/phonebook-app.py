@@ -39,14 +39,14 @@ def init_phonebook_db():
     PRIMARY KEY (id)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
     """
-    cursor.execute(phonebook_table) # This is the connection to our database.
+    cursor.execute(phonebook_table) #This is the connection to our database.
 
 # Write a function named `find_persons` which finds persons' record using the keyword from the phonebook table in the db,and returns result as list of dictionary 
 # `[{'id': 1, 'name':'XXXX', 'number': 'XXXXXX'}]`.
 
 # This function is to find my results that has "keyword" into database
 def find_persons(keyword):
-    # You are very familiar with this query. This query will select all columns where the name like keyword. strip will remove all the white spaces, and lower will turn uppercase into lowercase.
+    # You are very familiar with this query.This query will select all columns where the name like keyword. strip will remove all the white spaces, and lower will turn uppercase into lowercase.
     query = f"""
     SELECT * FROM phonebook WHERE name like '%{keyword.strip().lower()}%';
     """
