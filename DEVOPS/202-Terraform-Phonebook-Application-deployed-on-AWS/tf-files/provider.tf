@@ -13,11 +13,11 @@ terraform {
 
 provider "aws" {
   # Configuration options
-  region = "us-east-1"
+  region = "us-east-1" 
   profile = "cw-training"
 }
 
 provider "github" {
   # Configuration options
-  token = "xxxxxxxxxxxxxxxxxxxxxxxxx" #(your git hub token must be written)
+  token = "xxxxxxxxxxxxxxxxxxxxxxxxx" #(your github token must be written)
 }
