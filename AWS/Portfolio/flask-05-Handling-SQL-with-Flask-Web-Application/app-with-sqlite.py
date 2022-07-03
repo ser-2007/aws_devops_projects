@@ -8,7 +8,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///./email.db' # burada bir path
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False # her degisiklikte bizi ikaz etmesin diye false olarak gecirdik. ikaz istiyorsak true olmali
 db = SQLAlchemy(app) # database SQLAlchemy degerine ataniyor
 
-# users tablosu olusturacagiz
+# we are creating user table    
 drop_table = 'DROP TABLE IF EXISTS users;' # users isimli bir tablo olusturmak istiyoruz. Eger bu isimde bir tablo varsa silsin diyoruz (bir defa icra edilir
 # cunku tekrar icra edilirse eskiler silinir)
 users_table = """  
