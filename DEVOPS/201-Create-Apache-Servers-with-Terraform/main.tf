@@ -63,7 +63,7 @@ resource "aws_instance" "apache-ec2" {
   ami                    = data.aws_ami.amazon-linux-2.id
   instance_type          = "t2.micro"
   count                  = 2
-  key_name               = "ec2_key"
+  key_name               = "ec2_key" #write your key
   vpc_security_group_ids = [aws_security_group.allow-ssh.id]
   user_data              = file("create_apache.sh")
   tags = {
