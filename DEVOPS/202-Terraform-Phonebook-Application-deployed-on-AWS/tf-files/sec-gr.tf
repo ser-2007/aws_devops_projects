@@ -60,7 +60,7 @@ resource "aws_security_group" "db-sg" {
     from_port = 3306
     protocol = "tcp"
     to_port = 3306
-    security_groups = [aws_security_group.server-sg.id]
+    security_groups = [aws_security_group.server-sg.id] "security groups must be list form"
   }
 
   egress {
