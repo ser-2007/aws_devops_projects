@@ -1,4 +1,4 @@
-from flask import Flask, render_template # Import Flask and render_template modules.
+from flask import Flask, render_template # Import Flask and render_template modules. Imorting flask from flask
 
 app = Flask(__name__) # we create an object
 
