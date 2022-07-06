@@ -2,7 +2,7 @@
 from flask import Flask, render_template, request
 # Create an object named app
 app = Flask(__name__)
-# create a function named "lcm" which calculates a least common multiple values of two numbers. 
+# create a function named "lcm" which calculates a least common multiple values of two numbers . 
 def lcm(num1,num2):
     common_multiplications = [] 
     for i in range(max(num1, num2),num1*num2+1): 
