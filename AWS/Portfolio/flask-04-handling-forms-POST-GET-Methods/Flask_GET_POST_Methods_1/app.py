@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html') 
 # calculate sum of them using inline function in app.py, then sent the result to the 
-# "number.hmtl" file and assign route of path ('/total'). 
+# "number.hmtl" file and assign route of path ('/total') . 
 # When the user comes directly "/total" path, "Since this is GET 
 # request, Total hasn't been calculated" string returns to them with "number.html" file
 @app.route('/total', methods = ["GET", "POST"]) 
