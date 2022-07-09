@@ -75,7 +75,7 @@ Resources:
         - DomainName: !Select [2, !Split ["/", !GetAtt KittensBucket.WebsiteURL]] 
           Id: KittensOrigin
           CustomOriginConfig: 
-            OriginProtocolPolicy: http-only 
+            OriginProtocolPolicy: http-only #only http
         PriceClass: PriceClass_All
         ViewerCertificate:  
           AcmCertificateArn: !Ref KittensCertificate
