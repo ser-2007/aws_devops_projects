@@ -19,5 +19,5 @@ provider "aws" {
 
 provider "github" {
   # Configuration options
-  token = "xxxxxxxxxxxxxxxxxxxxxxx  x" #(your github token must be written)
+  token = "xxxxxxxxxxxxxxxxxxxxxxx" #(your github token must be written)
 }
