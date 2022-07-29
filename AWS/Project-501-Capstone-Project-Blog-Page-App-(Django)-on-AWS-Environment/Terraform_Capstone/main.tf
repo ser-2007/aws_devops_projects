@@ -12,7 +12,7 @@ locals {
   zone_id           = "Z08348542LMKDSH94CCW6" #write your route53 zone id which belongs your domain name
   certificate_arn_alb   = "XXXXXXXXXXXXX" # write your certficate arn for https secure connection used by ALB
   certificate_arn_cloudfront = "XXXXXXXXXXXXXXXXXXXX"
-  # write your certficate arn for https secure connection used by Cloudfront. Be careful!!! Even though you create this stack any region except us-east-1, Cloudfront needs the certificate issued in us-east-1 region. Thts why, if you create this stack in us-east-1, you can use your certificate issued in this region, but if you create this stack in different region, you have to use a certificate isuued in us-east-1. 
+  # write your certificate arn for https secure connection used by Cloudfront. Be careful!!! Even though you create this stack any region except us-east-1, Cloudfront needs the certificate issued in us-east-1 region. Thts why, if you create this stack in us-east-1, you can use your certificate issued in this region, but if you create this stack in different region, you have to use a certificate isuued in us-east-1. 
   tags = {
     Name = local.name
   }
