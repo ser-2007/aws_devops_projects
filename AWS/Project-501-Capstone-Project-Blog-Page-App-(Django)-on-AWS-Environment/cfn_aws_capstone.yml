@@ -328,7 +328,7 @@ Resources:
   WebServersSecGroup:
     Type: "AWS::EC2::SecurityGroup"
     Properties:
-      GroupDescription: Enable HTTP for Web Servers #required
+      GroupDescription: Enable HTTP for Web Servers # required
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 80
