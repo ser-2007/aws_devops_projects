@@ -372,8 +372,8 @@ Resources:
       DefaultActions: #required
         - TargetGroupArn: !Ref WebServerTG
           Type: forward
-      LoadBalancerArn: !Ref ALB #required
-      Port: 443 #required
+      LoadBalancerArn: !Ref ALB # required
+      Port: 443 # required
       Protocol: HTTPS #required
 
   ALBHTTPlistener:
