@@ -8,7 +8,7 @@ Description: |
   Cloudfront is served as cache. This app, send data to the RDS which is located private subnet and  also just specific
   EC2 can reach RDS instance. 
   ***WARNING*** This template creates an Amazon EC2 instance. You will be billed for the 
-  AWS resources used if you create a stack from this template. !!!Please do not forget to change userdata based on your github 
+  AWS resources used if you create a stack from this template.!!!Please do not forget to change userdata based on your github 
   repository!!!
 
 Parameters:
