@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: |
-  AWS CloudFormation Sample Template vpc_multiple_subnets , web server, RDS, Autoscaling group adn ALB: Sample
+  AWS CloudFormation Sample Template vpc_multiple_subnets, web server, RDS, Autoscaling group adn ALB: Sample
   template showing how to create an architecture included VPC with multiple subnets. There are two public, two
   private subnets and one AZ has NAT Instance (it can be used as bastion host) and public subnets routed internet 
   gateway. Both Subnets has contains an EC2 instance behind the load balancer and also basic web server application 
