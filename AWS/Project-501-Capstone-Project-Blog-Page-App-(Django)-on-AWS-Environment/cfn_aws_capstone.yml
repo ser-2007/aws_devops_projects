@@ -1,4 +1,4 @@
-AWSTemplateFormatVersion: 2010-09-09
+AWSTemplateFormatVersion: 2010-09-09 #this is same 
 Description: |
   AWS CloudFormation Sample Template vpc_multiple_subnets, web server, RDS, Autoscaling group adn ALB: Sample
   template showing how to create an architecture included VPC with multiple subnets. There are two public, two
