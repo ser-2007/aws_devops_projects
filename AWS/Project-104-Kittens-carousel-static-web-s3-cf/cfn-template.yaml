@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: |
-  Cloudformation Template for Kittens Carousel static website deploy on s3 through Cloudfront and Route 53
+  Cloudformation Template for Kittens-Carousel static website deploy on s3 through Cloudfront and Route 53
 
 Parameters:
   DomainName:
