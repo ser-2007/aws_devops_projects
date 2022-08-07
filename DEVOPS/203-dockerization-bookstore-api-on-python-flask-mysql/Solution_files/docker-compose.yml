@@ -24,7 +24,7 @@ services:
       - clarusnet
 
 networks:
-  clarusnet: # default driver is bridge
+  clarusnet: #default driver is bridge
     driver: bridge
 
 
