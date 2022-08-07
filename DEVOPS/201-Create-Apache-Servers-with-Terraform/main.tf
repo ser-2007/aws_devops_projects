@@ -1,4 +1,4 @@
-# solution
+#solution
 terraform {
   required_providers {
     aws = {
