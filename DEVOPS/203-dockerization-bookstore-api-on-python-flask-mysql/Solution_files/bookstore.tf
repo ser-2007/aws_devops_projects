@@ -43,7 +43,7 @@ provider "aws" {
 #   file = each.value
 #   repository = github_repository.myrepo.name
 #   branch = "main"
-#   commit_message = "app-files added to repo"
+#   commit_message =  "app-files added to repo"
 #   overwrite_on_create = true
 # }
 
