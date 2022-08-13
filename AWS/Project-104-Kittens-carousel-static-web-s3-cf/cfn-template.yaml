@@ -9,7 +9,7 @@ Parameters:
   KittensDomainName:
     Description: Full domain name for the App. ex. kittens.awsdevopsserkan.com #we have took this domain name at route53 service
     Type: String
-    AllowedPattern: (?!-)[a-zA-Z0-9-.]{1,63}(?<!-) #  We are describing how to use patterns. basinda ve sonunda kisitlayici ifade olmasin ve 63 karakter enfazla
+    AllowedPattern: (?!-)[a-zA-Z0-9-.]{1,63}(?<!-) # We are describing how to use patterns. basinda ve sonunda kisitlayici ifade olmasin ve 63 karakter enfazla
 
 Resources:
   KittensBucket:
