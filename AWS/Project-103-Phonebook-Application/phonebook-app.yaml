@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: |
-  CloudFormation Template for Phonebook Application. This template creates Application 
+  CloudFormation Template for Phonebook Application . This template creates Application 
   Load Balancer with Auto Scaling Group of Amazon Linux 2 (ami-0022f774911c1d690) EC2 Instances 
   which host Python Flask Web Application. EC2 instances are placed within 
   WebServerSecurityGroup which allows http (80) connections only from ALBSecurityGroup, 
