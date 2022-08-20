@@ -12,7 +12,7 @@ Description: |
   configured to prepare Python Flask environment on EC2, and to deploy Phonebook 
   Application on Flask Server after downloading the app code from Github repository.
 Parameters:
-  MyVPC: #parametertypevpc seciyoruz
+  MyVPC: #parameter type olarak vpc seciyoruz
     Description: VPC Id of your existing account.
     Type: AWS::EC2::VPC::Id
   
