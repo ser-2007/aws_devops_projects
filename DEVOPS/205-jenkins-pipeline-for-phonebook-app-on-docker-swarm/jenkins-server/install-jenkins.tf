@@ -71,7 +71,7 @@ resource "aws_iam_instance_profile" "ec2-profile" {
 resource "aws_instance" "tf-jenkins-server" {
   ami           = data.aws_ami.tf-ami.id
   instance_type = "t2.micro" #"t3a.medium"
-  key_name      = "EC2_key"
+  key_name      = "ec2_key"
   //  Write your pem file name
   security_groups = ["jenkins-server-sec-gr"]
   iam_instance_profile = aws_iam_instance_profile.ec2-profile.name
