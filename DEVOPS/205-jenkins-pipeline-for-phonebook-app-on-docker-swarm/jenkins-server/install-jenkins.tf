@@ -1,6 +1,6 @@
 provider "aws" {
   region = "us-east-1"
-  # profile = "cw-training"
+  # profile = "cw-training" #if you describe your profile on CLI not need to write here
 }
 
 data "aws_ami" "tf-ami" {
