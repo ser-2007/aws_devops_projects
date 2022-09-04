@@ -1,4 +1,4 @@
-# ## Import Flask modules
+# Import Flask modules
 from flask import Flask, request, render_template
 from flaskext.mysql import MySQL
 
