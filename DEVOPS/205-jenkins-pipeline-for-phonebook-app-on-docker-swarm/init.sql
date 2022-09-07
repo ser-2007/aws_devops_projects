@@ -9,5 +9,5 @@ INSERT INTO phonebook_db.phonebook (name, number)
     VALUES
         ("Callahan", "1234567890"),
         ("Serkan", "6537798080009"),
-        ("Sergio Taco", "67854"),
+        ("Sergio Taco", "67854334"),
         ("Vincenzo Altobelli", "876543554");
