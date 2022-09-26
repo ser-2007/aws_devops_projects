@@ -16,7 +16,7 @@ services:
     image: hamidgokce/bookstoreapi:latest
     container_name: myapp
     restart: always
-    depends_on: #The database must be created first.
+    depends_on: # The database must be created first. After that the other resource ll create
       - database
     ports:
       - "80:80"
