@@ -172,7 +172,7 @@ Resources:
           Value: docker-grand-master
         - Key: project
           Value: "205"
-      UserData: 
+      UserData:  #the machine will be updated with these
         Fn::Base64: |
           #! /bin/bash
           yum update -y
