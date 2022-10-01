@@ -172,10 +172,10 @@ Resources:
           Value: docker-grand-master
         - Key: project
           Value: "205"
-      UserData:  #the machine will be updated with these
+      UserData:  #the machine will be updated  with these
         Fn::Base64: |
           #! /bin/bash
-          yum update -y
+          yum update -y 
           hostnamectl set-hostname Grand-Master
           amazon-linux-extras install docker -y
           systemctl start docker
