@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata: 
     name: database-configmap
 data: 
-    MYSQL_USER: clarus # database ayaga kalkarken secrets.yaml daki secretleri kullacak, buradaki user i olusturacak
+    MYSQL_USER: clarus # database ayaga kalkarken secrets.yaml daki secretleri kullacak, buradaki user i olusturacak. it uses the secrets which written in secrets.yml when database will be ok
     MYSQL_DATABASE: phonebook # bu databaseyi kullanacak containerlar bu databasede islem yapabilsin
