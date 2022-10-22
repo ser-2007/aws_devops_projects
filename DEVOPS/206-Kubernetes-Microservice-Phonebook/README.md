@@ -104,7 +104,7 @@ Phonebook Microservice Web Application aims to create a web application with MyS
 Initial files:
 
 1. README.md                      # Given to the students (Definition of the project )
-2. Image_for_web_server           # Given to the students (Image components of Python Flask Web API for Update/delete/add record)
+2. Image_for_web_server           # Given to the students (Image  components of Python Flask Web API for Update/delete/add record)
   - app.py      
   - requirements.txt              
   - templates
