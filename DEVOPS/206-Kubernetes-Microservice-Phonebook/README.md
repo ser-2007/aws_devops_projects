@@ -103,42 +103,42 @@ Phonebook Microservice Web Application aims to create a web application with MyS
 
 Initial files:
 
-1. README.md                      # Given to the students (Definition of the project )
-2. Image_for_web_server           # Given to the students (Image  components of Python Flask Web API for Update/delete/add record)
+1. README.md                      # Given (Definition of the project )
+2. Image_for_web_server           # Given (Image  components of Python Flask Web API for Update/delete/add record)
   - app.py      
   - requirements.txt              
   - templates
     - index.html
     - add-update.html
     - delete.html
-3. image_for_result_server        # Given to the students (Image components of Python Flask Web API for search record)
+3. image_for_result_server        # Given  (Image components of Python Flask Web API for search record)
   - app.py           
   - requirements.txt              
   - templates
     - index.html
-4. kubernetes-env-cf.yaml         # Given to the students (Cloudformation template for Kubernetes architecture)
+4. kubernetes-env-cf.yaml         # Given  (Cloudformation template for Kubernetes architecture)
 
 Requested files:
 
 ADD/DELETE/UPDATE DEPLOYMENT AND SERVICE
-1. Dockerfile                     # To be delivered by students 
-2. web_server_deployment.yml      # To be delivered by students
-3. web_server_service.yaml        # To be delivered by students
+1. Dockerfile                     # To be delivered by devops team 
+2. web_server_deployment.yml      # To be delivered by devops team
+3. web_server_service.yaml        # To be delivered by devops team
 
 SEARCH DEPLOYMENT AND SERVICE
-1. Dockerfile                     # To be delivered by students
-2. result_server_deployment.yml   # To be delivered by students
-3. result_server_service.yaml     # To be delivered by students
+1. Dockerfile                     # To be delivered by devops team
+2. result_server_deployment.yml   # To be delivered by devops team
+3. result_server_service.yaml     # To be delivered by devops team
 
 DATABASE DEPLOYMENT AND SERVICE
-1. mysql_deployement.yml          # To be delivered by students
-2. persistent_volume.yaml         # To be delivered by students
-2. persistent_volume_claim.yaml   # To be delivered by students
+1. mysql_deployement.yml          # To be delivered by devops team
+2. persistent_volume.yaml         # To be delivered by devops team
+2. persistent_volume_claim.yaml   # To be delivered by devops team
 
 SECRETS AND CONFIGMAP
-1. mysql-secret.yaml              # To be delivered by students
-2. database_configmap.yaml        # To be delivered by students
-3. servers_configmap.yaml         # To be delivered by students
+1. mysql-secret.yaml              # To be delivered by devops team
+2. database_configmap.yaml        # To be delivered by devops team
+3. servers_configmap.yaml         # To be delivered by devops team
 
 ```
 
@@ -180,7 +180,7 @@ SECRETS AND CONFIGMAP
 
 ## Steps to Solution
   
-- Step 1: Download or clone project definition from `clarusway` repo on Github
+- Step 1: Download or clone project definition from repo on Github
 
 - Step 2: Create your Kubernetes environment with cloudformation template
 
