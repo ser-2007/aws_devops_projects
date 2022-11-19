@@ -1,0 +1,33 @@
+#!/bin/bash
+sudo apt-get update -y
+sudo apt-get upgrade -y
+# Basic install of k3s. 
+curl -sfL https://get.k3s.io | INSTALL_K3S_VERSION=v1.21.8+k3s1 sh -s - server \
+  --token ${token} \
+  --cluster-init \
+  --kubelet-arg=provider-id="aws:///$(curl -s http://169.254.169.254/latest/meta-data/placement/availability-zone)/$(curl -s http://169.254.169.254/latest/meta-data/instance-id)"
+
+# Wait for k3s.yaml to appear
+while ! [ -e /etc/rancher/k3s/k3s.yaml ]
+do 
+  sleep 3
+done
+
+#if we dont add this command k3s-cert commands in gitlab pipeline can not be applied.
+sudo ln -s /usr/local/bin/k3s /usr/bin/kubectl
+
+#add prometheus on alpine linux
+#sudo apk add prometheus
+
+##if we don't add those commands prometheus can not be installed on ubuntu 
+#mkdir /home/.kube
+#sudo cp /etc/rancher/k3s/k3s.yaml /home/.kube/config
+#sudo chmod 750 /home/.kube/config
+#sudo ln -s /etc/rancher/k3s/k3s.yaml /home/.kube/config
+
+
+
+
+
+
+      
