@@ -55,3 +55,5 @@ resource "aws_instance" "worker" {
 output "masters_public_ip" {
   value = aws_instance.master.public_ip
 }
+
+#if you want you can use outputs outside of the main tf as outputs.tf 
