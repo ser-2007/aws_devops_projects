@@ -6,7 +6,7 @@ Kittens Carousel is a static website application deployed on AWS Simple Storage 
 
 ## Problem Statement
 
-![Project_006](Project_006.png)
+![Project_006](Project_006-.png)
 
 - Your company has recently started a web application project that will serve as an attraction point for pet lovers. As a first step of the project, you have deployed the app on EC2 instance and showed that design is good and working, thus you can go to next step. Developers in your team have prepared kittens carousel application and pushed necessary files for the project to the repository on Github.
 
