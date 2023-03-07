@@ -6,7 +6,7 @@ Phonebook Microservice Web Application aims to create a web application with MyS
 
 ## Problem Statement
 
-![Project_206](Microservice_structure.png) 
+![Project_206](Microservice_structure-.png) 
 
 - Your team has started working on a project to create a `Phonebook` Application as Web Service.  
 
