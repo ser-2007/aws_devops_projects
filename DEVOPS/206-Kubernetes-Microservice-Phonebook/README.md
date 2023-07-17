@@ -8,7 +8,7 @@ Phonebook Microservice Web Application aims to create a web application with MyS
 
 ![Project_206](Microservice_structure-.png) 
 
-- Your team has started working on a project to create a `Phonebook` Application as Web Service.  
+- Our team has started working on a project to create a `Phonebook` Application as Web Service.  
 
 - Software Developers in your team have already developed first version of `Phonebook` application. They have designed a database to keep phonebook records with following fields.
 
